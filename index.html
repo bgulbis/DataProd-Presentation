@@ -820,10 +820,12 @@ hljs.initHighlightingOnLoad();
 <section data-transition="fade" data-transition-speed="default">
 <h3>About the Model</h3>
 <div class="slideContent" >
-<p>Based upon the <code>mtcars</code> data set, linear regression was used to estimate the change in a vehicle&#39;s fuel efficiency as the horsepower, weight, or number of cylinders are changed.</p>
+<p>Based upon the <code>mtcars</code> data set, linear regression was used to estimate the change in a vehicle&#39;s fuel efficiency as the horsepower, weight, or number of cylinders are changed. </p>
 
 <pre class="fragment"><code class="r">model &lt;- lm(mpg ~ hp + wt + factor(cyl), data=mtcars)
 </code></pre>
+
+<p class="fragment">Below are the coefficients for each parameter which are used to calculate the effect each has on fuel efficiency.</p>
 
 <pre class="fragment"><code> (Intercept)           hp           wt factor(cyl)6 factor(cyl)8 
  35.84599532  -0.02311981  -3.18140405  -3.35902490  -3.18588444 

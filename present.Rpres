@@ -27,11 +27,13 @@ To resolve this situation, a simple web-based app was created to estimate a vehi
 About the Model
 ========================================================
 
-Based upon the `mtcars` data set, linear regression was used to estimate the change in a vehicle's fuel efficiency as the horsepower, weight, or number of cylinders are changed.
+Based upon the `mtcars` data set, linear regression was used to estimate the change in a vehicle's fuel efficiency as the horsepower, weight, or number of cylinders are changed. 
 
 ```{r model}
 model <- lm(mpg ~ hp + wt + factor(cyl), data=mtcars)
 ```
+
+Below are the coefficients for each parameter which are used to calculate the effect each has on fuel efficiency.
 
 ```{r vars, echo=FALSE}
 coefficients(model)
