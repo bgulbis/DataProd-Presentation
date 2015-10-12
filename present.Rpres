@@ -1,8 +1,10 @@
 Predicting Automobile Fuel Efficiency
 ========================================================
 author: Brian Gulbis
-date: October 6, 2015
+date: `r format(Sys.Date(), "%B %d, %Y")`
 font-family: 'Arial'
+transition: fade
+incremental: true
 
 The Issue
 ========================================================
