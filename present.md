@@ -1,7 +1,7 @@
 Predicting Automobile Fuel Efficiency
 ========================================================
 author: Brian Gulbis
-date: October 12, 2015
+date: October 02, 2016
 font-family: 'Arial'
 transition: fade
 incremental: true
@@ -9,7 +9,7 @@ incremental: true
 The Issue
 ========================================================
 
-Recent events have revealed that some auto manufacturers have created certain modifications to their vehicles which   resulted in falsely-high fuel efficiency ratings during government testing.
+Over the past couple of years, it has been revealed that some auto manufacturers have created certain modifications to their vehicles which   resulted in falsely-high fuel efficiency ratings during government testing.
                            
 Many consumers are left wondering just how accurate the information provided by the manufacterers really is, and whether than can trust the information when purchasing a vehicle.
 
